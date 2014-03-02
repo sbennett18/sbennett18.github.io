@@ -22,16 +22,16 @@
   <style type="text/css" media="screen">
     body {
       font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
-      padding-top: 70px;
+      padding-top: 60px;
     }
   </style>
 </head>
 
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <header class="navbar navbar-inverse navbar-fixed-top" id="top" role="banner">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -39,7 +39,7 @@
         </button>
         <a class="navbar-brand" href="../">Stephen Bennett</a>
       </div>
-      <div class="collapse navbar-collapse">
+      <nav class="collapse navbar-collapse" role="navigation">
         <ul class="nav navbar-nav">
           <li><a href="experience.html">Work Experience</a></li>
           <li><a href="projects.html">Projects</a></li>
@@ -47,9 +47,9 @@
           <li><a href="coursework.html">Coursework</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
-      </div><!--/.nav-collapse -->
+      </nav><!--/.nav-collapse -->
     </div>
-  </div>
+  </header>
 
   <div id="main" class="container">
     <div class="jumbotron">
